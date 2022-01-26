@@ -2,24 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samson's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
     <!-- Update these with your own fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+        rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="./images/logo.png" alt="samson logo">
+            <img src="./images/logo.png" alt="samson logo" />
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -27,9 +27,15 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">My Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">My Work</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -39,10 +45,11 @@
         <h1 class="section__title section__title--intro">
             Hi, This is <strong>Samson Ajulor</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Full Stack Node Developer</p>
-        <img src="./images/Sam Keys Samson Ajulor.jpg" alt="a picture of samson ajulor smiling" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">
+            Full Stack Node Developer
+        </p>
+        <img src="./images/Sam Keys Samson Ajulor.jpg" alt="a picture of samson ajulor smiling" class="intro__img" />
     </section>
-
 
     <!-- My services -->
     <section class="my-services" id="services">
@@ -50,50 +57,80 @@
         <div class="services">
             <div class="service">
                 <h3>Design + Development</h3>
-                <p>I deploy and maintain network applications, manage the exchange of data between servers
-                    and users. My daily task also involves developing back-end components, and connecting applications
-                    with other web services.</p>
+                <p>
+                    I deploy and maintain network applications, manage the exchange of
+                    data between servers and users. My daily task also involves
+                    developing back-end components, and connecting applications with
+                    other web services.
+                </p>
             </div>
         </div>
 
         <a href="#work" class="btn">View My Work</a>
     </section>
 
-
     <!-- About me -->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Developer and Tutor Based in Nigeria</p>
+        <p class="section__subtitle section__subtitle--about">
+            Developer and Tutor Based in Nigeria
+        </p>
 
         <div class="about-me__body">
-            <p>Loves self development and professionally engage value exchange. With over three years of post graduate
-                experience cutting across excellent customer service, sales, providing innovative solutions to the
-                educational landscape and a growing hunger for web, mobile and software development.</p>
+            <p>
+                Loves self development and professionally engage value exchange. With
+                over three years of post graduate experience cutting across excellent
+                customer service, sales, providing innovative solutions to the
+                educational landscape and a growing hunger for web, mobile and
+                software development.
+            </p>
         </div>
 
-        <img src="./images/Samson Ajulor Sam Keys.jpg" alt="samson leaning against a wall" class="about-me__img">
+        <img src="./images/Samson Ajulor Sam Keys.jpg" alt="samson leaning against a wall" class="about-me__img" />
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <p class="section__subtitle section__subtitle--work">
+            A selection of my range of work
+        </p>
 
         <div class="portfolio">
-            <a href="./starwarsheroes.html" class="portfolio__item">
-                <img src="./images/starwars.png" alt="display of starwars site" class="portfolio__img">
+            <a href="https://starwarsbysamson.netlify.app" class="portfolio__item">
+                <img src="./images/starwars.png" alt="display of starwars site" class="portfolio__img" />
             </a>
-        </div> <br>
-        <a href="./starwarsheroes.html" class="btn">click on an image to view more</a>
+        </div>
+        <br />
+        <p>
+            This is a SPA (single page application) using html, CSS and JavaScript.
+            It shows all characters from a star wars API
+        </p>
+        <a href="https://starwarsbysamson.netlify.app" class="btn">click to interact with the site</a>
 
-              <div class="portfolio" style="margin-top: 3rem;">
-            <a href="./bank-api.html" class="portfolio__item">
-                <img src="./images/transferServiceAPI.png" alt="transfer-service api" class="portfolio__img">
+        <div class="portfolio" style="margin-top: 3rem">
+            <a href="https://samson-ajulor-bank-api.herokuapp.com/" class="portfolio__item">
+                <img src="./images/transferServiceAPI.png" alt="transfer-service api" class="portfolio__img" />
             </a>
-        </div> <br>
-        <a href="./bank-api.html" class="btn">click on an image to view more</a>
+        </div>
+        <br />
+        <p>
+            This is a basic but functional bank api which enables users to make
+            transactions and get their accout balance and details.
+        </p>
+        <a href="https://samson-ajulor-bank-api.herokuapp.com/" class="btn">click to interact with the site</a>
+
+            <div class="portfolio" style="margin-top: 3rem">
+            <a href="https://samsonajulor-video-streamer.netlify.app/" class="portfolio__item">
+                <img src="./images/video-streamer.png" alt="transfer-service api" class="portfolio__img" />
+            </a>
+        </div>
+        <br />
+        <p>
+            This React app fetches data from youtube’s api and implements search features with params. You can search and stream any video you need from all genres.
+        </p>
+        <a href="https://samsonajulor-video-streamer.netlify.app/" class="btn">click to interact with the site</a>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -112,9 +149,7 @@
         </ul>
     </footer>
 
-
     <script src="index.js"></script>
-
 </body>
 
 </html>
